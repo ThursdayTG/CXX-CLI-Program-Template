@@ -2,4 +2,4 @@
 There is not a lot to be said here.
 This is a template for programs that are meant to run in the console, written in C++.
 
-Unlike my usual MO, I will not archive and keep outdated versions here and will deleat them entirely instead.
+Unlike my usual MO, I will not archive and keep outdated versions here and will delete / replace them entirely instead.
