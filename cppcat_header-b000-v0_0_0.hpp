@@ -24,7 +24,7 @@ void pause() {		// 						derived from system("pause")
 
 bool queryRestart() {
 
-	char	restartOperator = "0";
+	std::string	restartOperator = "0";
 		// default value tries to prevent do-while loop from repeating in case of unexpected error
 
 	std::cout	<< "\n\n restart? (0/1): ";
