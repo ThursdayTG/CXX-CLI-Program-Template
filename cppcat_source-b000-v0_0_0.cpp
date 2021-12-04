@@ -57,15 +57,10 @@ g++ -Og cppcat_source-b000-v0_0_0.cpp -o cppcat.debug
 clear && g++ -O3 cppcat_source-b000-v0_0_0.cpp -o cppcat.release
 
 	clear console, compile debug executable, compile release executable, and run program:
-g++ -Og cppcat_source-b000-v0_0_0.cpp -o cppcat.debug && g++ -O3 cppcat_source-b000-v0_0_0.cpp -o cppcat.release && clear && ./mnk_game_newest.release
+g++ -Og cppcat_source-b000-v0_0_0.cpp -o cppcat.debug && g++ -O3 cppcat_source-b000-v0_0_0.cpp -o cppcat.release && clear && ./cppcat.release
 
    g++ -Og cppcat_source-b000-v0_0_0.cpp -o cppcat.debug
 && g++ -O3 cppcat_source-b000-v0_0_0.cpp -o cppcat.release
 && clear
 && ./cppcat.release
-
-
-
-	name meaning:
-C++ Console Application Template
 */
