@@ -1,5 +1,3 @@
 # cpp-console_program-template
-There is not a lot to be said here.
-This is a template for programs that are meant to run in the console, written in C++.
-
-Unlike my usual MO, I will not archive and keep outdated versions here and will delete / replace them entirely instead.
+This is my template for console programs written in C++.
+Different versiosn will not be posted separately here, the only versions I keep are the newest ones.
