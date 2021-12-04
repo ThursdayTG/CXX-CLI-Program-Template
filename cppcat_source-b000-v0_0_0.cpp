@@ -1,6 +1,5 @@
 // inclusion of libraries
 	#include <iostream>
-//	#include <string>
 
 // inclusion of files
 	#include "cppcat_header-b000-v0_0_0.hpp"
@@ -14,8 +13,6 @@ int main() {
 	/**/
 	using	std::cout;
 	using	std::cin;
-
-// 	using	std::string;
 	/**/
 
 	/*	local variable declaration	*/
@@ -30,19 +27,19 @@ int main() {
 	do {
 
 		/*	local variable declaration	*/
-// 		lorem_ipsum
+			//lorem_ipsum
 		/*	local variable declaration	*/
 
 		/*	primary execution block	*/
 		cout	<< " test 1 ..."
 				<< " \n";
 
-		cout	<< " test 2 ...;
+		cout	<< " test 2 ...";
 		cout	<< " \n";
 		/*	primary execution block	*/
 
 		/*	end block	*/
-	 	restartOperator = queryRestart();	// asks user whether current section of program should be looped
+		restartOperator = queryRestart();	// asks user whether current section of program should be looped
 		cls();								// clears screen
 		/*	end block	*/
 
@@ -66,7 +63,7 @@ g++ -Og cppcat_source-b000-v0_0_0.cpp -o cppcat.debug && g++ -O3 cppcat_source-b
    g++ -Og cppcat_source-b000-v0_0_0.cpp -o cppcat.debug
 && g++ -O3 cppcat_source-b000-v0_0_0.cpp -o cppcat.release
 && clear
-&& ./cppcat.release.release
+&& ./cppcat.release
 
 
 
