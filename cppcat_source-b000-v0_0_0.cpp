@@ -23,7 +23,6 @@ int main() {
 
 	cout	<< "\n";
 
-
 	do {
 
 		/*	local variable declaration	*/
