@@ -1,5 +1,6 @@
 // inclusion of libraries
 	#include <iostream>
+	#include <string>
 
 
 
