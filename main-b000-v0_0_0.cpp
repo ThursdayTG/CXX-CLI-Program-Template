@@ -2,7 +2,7 @@
 	#include <iostream>
 
 // inclusion of files
-	#include "cppcat_header-b000-v0_0_0.hpp"
+	#include "main_header.hpp"
 
 
 
@@ -51,16 +51,16 @@ int main() {
 /*	using C++ compiler from GCC via console
 
 	compile for debug:
-g++ -Og cppcat_source-b000-v0_0_0.cpp -o cppcat.debug
+g++ -Og main-b000-v0_0_0.cpp -o main.debug
 
 	clear and compile as final executable:
-clear && g++ -O3 cppcat_source-b000-v0_0_0.cpp -o cppcat.release
+clear && g++ -O3 main-b000-v0_0_0.cpp -o main.release
 
 	clear console, compile debug executable, compile release executable, and run program:
-g++ -Og cppcat_source-b000-v0_0_0.cpp -o cppcat.debug && g++ -O3 cppcat_source-b000-v0_0_0.cpp -o cppcat.release && clear && ./cppcat.release
+g++ -Og main-b000-v0_0_0.cpp -o main.debug && g++ -O3 main-b000-v0_0_0.cpp -o main.release && clear && ./main.release
 
-   g++ -Og cppcat_source-b000-v0_0_0.cpp -o cppcat.debug
-&& g++ -O3 cppcat_source-b000-v0_0_0.cpp -o cppcat.release
+   g++ -Og main-b000-v0_0_0.cpp -o main.debug
+&& g++ -O3 main-b000-v0_0_0.cpp -o main.release
 && clear
-&& ./cppcat.release
+&& ./main.release
 */
