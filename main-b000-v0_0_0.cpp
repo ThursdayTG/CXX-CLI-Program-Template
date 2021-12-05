@@ -2,7 +2,7 @@
 	#include <iostream>
 
 // inclusion of files
-	#include "main_header.hpp"
+	#include "main-header.hpp"
 
 
 
@@ -51,16 +51,16 @@ int main() {
 /*	using C++ compiler from GCC via console
 
 	compile for debug:
-g++ -Og main-b000-v0_0_0.cpp -o main.debug
+g++ -Og main-b000-v0_0_0.cpp -o main-newest.debug
 
 	clear and compile as final executable:
-clear && g++ -O3 main-b000-v0_0_0.cpp -o main.release
+clear && g++ -O3 main-b000-v0_0_0.cpp -o main-newest.release
 
 	clear console, compile debug executable, compile release executable, and run program:
-g++ -Og main-b000-v0_0_0.cpp -o main.debug && g++ -O3 main-b000-v0_0_0.cpp -o main.release && clear && ./main.release
+g++ -Og main-b000-v0_0_0.cpp -o main-newest.debug && g++ -O3 main-b000-v0_0_0.cpp -o main-newest.release && clear && ./main-newest.release
 
-   g++ -Og main-b000-v0_0_0.cpp -o main.debug
-&& g++ -O3 main-b000-v0_0_0.cpp -o main.release
+   g++ -Og main-b000-v0_0_0.cpp -o main-newest.debug
+&& g++ -O3 main-b000-v0_0_0.cpp -o main-newest.release
 && clear
 && ./main.release
 */
