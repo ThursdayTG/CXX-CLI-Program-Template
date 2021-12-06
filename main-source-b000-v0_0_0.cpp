@@ -21,9 +21,9 @@ int main() {
 	/**/
 
 
-	cout	<< "\n";
-
 	do {
+
+		cout	<< "\n";
 
 		/*	local variable declaration	*/
 			//lorem_ipsum
