@@ -1,14 +1,10 @@
-#ifndef HEADERS_GENERICFUNCTIONS
-#define HEADERS_GENERICFUNCTIONS
+#pragma once
+
+
 
 
 void clearScreen();
 
 void printHeader();
 
-void pause();  // shorthand for `cin.ignore(); cin.get();`
-
 bool queryRestart();
-
-
-#endif

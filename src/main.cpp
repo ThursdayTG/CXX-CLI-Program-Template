@@ -4,43 +4,32 @@
 #include "../headers/genericFunctions.hpp"
 
 
-using std::cout;
-using std::cin;
-
-using std::string;
-
-
 
 
 int main()
 {
-	bool restartOperator = true;
-
-	while (restartOperator == true)
-	{
-		restartOperator = false;
-		printHeader();
+    using std::cout, std::cin;
 
 
-		//=== example block
-		//local variable declaration
-
-		cout << " test 1 ... ";
-		cout << " \n";
-
-		cout << " test 2 ... "
-			 << " \n";
-
-		cout
-		<< " \n"
-		<< " test 3 ... "
-		<< " \n";
+    bool   restartOperator = true;
+    while (restartOperator)
+    {
+        restartOperator = false;
+        printHeader();
 
 
-		//=== end block
-		restartOperator = queryRestart();
-		clearScreen();
-	}
+        //===== start ======
+        //lorem_ipsum
 
-	return 0;
+
+        //=== operations ===
+        //lorem_ipsum
+
+
+        //====== end =======
+        restartOperator = queryRestart();
+        clearScreen();
+    }
+
+    return 0;
 }
